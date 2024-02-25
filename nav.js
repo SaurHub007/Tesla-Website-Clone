@@ -6,3 +6,7 @@ const closeMenu =() =>{
     document.querySelector('.backdrop').className = 'backdrop';
     document.querySelector('aside').className='';
 }
+document.getElementById('menuBtn').onclick = e =>{
+    e.preventDefault();
+    openMenu(); 
+}
