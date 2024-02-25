@@ -10,3 +10,9 @@ document.getElementById('menuBtn').onclick = e =>{
     e.preventDefault();
     openMenu(); 
 }
+document.querySelector('aside button.close').onclick = e =>{
+    closeMenu();
+}
+document.querySelector('.backdrop').onclick = e =>{
+    closeMenu();
+}
